@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            /* kiri kanan */
+            align-items: center;
+        }
+
+        nav {
+            margin-left: auto;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .box {
+            border: 1px solid #ccc;
+            padding: 15px;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-spacing: 10px;
+        }
+
+        .portfolio img {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>website saya</h2>
+        <nav>
+            <a href="#">home</a>
+            <a href="#">biodata</a>
+            <a href="#">portofolio</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <div class="flex">
+            <div>
+                <h2>Selamat Datang di Website Saya</h2>
+                <p>perkenalkan nama saya Faishal Arif Setiawan</p>
+                <button>pelajari lebih lanjut</button>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/600x400" width="600" height="400" alt="gambar">
+            </div>
+        </div>
+
+        <hr>
+
+        <h2 align="center">About me</h2>
+
+        <table>
+            <tr>
+                <td class="box">Full name</td>
+                <td class="box">Education</td>
+                <td class="box">Pekerjaan</td>
+            </tr>
+            <tr>
+                <td class="box">Contact</td>
+                <td class="box">Hobi</td>
+                <td class="box">Alamat</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <h2 align="center">Portofolio</h2>
+
+        <table class="portofolio">
+            <tr>
+                <td>
+                    <img src="https://via.placeholder.com/350x200">
+                    <p align="center">Project 1</p>
+                </td>
+                <td>
+                    <img src="https://via.placeholder.com/350x200">
+                    <p align="center">Project 2</p>
+                </td>
+                <td>
+                    <img src="https://via.placeholder.com/350x200">
+                    <p align="center">Project 3</p>
+                </td>
+            </tr>
+        </table>
+        <main></main>
+    </div>
+    <footer></footer>
+
+</body>
+
+</html>
