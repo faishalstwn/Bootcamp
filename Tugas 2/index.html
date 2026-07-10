@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f7fb;
+        }
+
+        header {
+            background: linear-gradient(to right, #4facfe, #00c6ff);
+            color: white;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            /* kiri kanan */
+            align-items: center;
+        }
+
+        nav {
+            margin-left: auto;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 40px;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
+            font-size: larger;
+        }
+
+        .flex img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+
+        button {
+            background: #4facfe;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .about {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .label {
+            color: #4facfe;
+            font-weight: bold;
+        }
+
+        .box {
+            background: white;
+            padding: 15px;
+            text-align: left;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .portfolio div {
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .portfolio img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* TITLE */
+        h2 {
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .flex {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .about {
+                grid-template-columns: 1fr;
+            }
+
+            .portfolio {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>website saya</h2>
+        <nav>
+            <a href="#">home</a>
+            <a href="#">biodata</a>
+            <a href="#">portofolio</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <div class="flex">
+            <div>
+                <h2>Selamat Datang di Website Saya</h2>
+                <p>perkenalkan nama saya Faishal Arif Setiawan</p>
+                <button>pelajari lebih lanjut</button>
+            </div>
+            <div>
+                <img src="img/Foto.jpeg" width="600" height="400" alt="gambar">
+            </div>
+        </div>
+
+        <hr>
+
+        <h2 align="center">About me</h2>
+
+        <div class="about">
+            <div class="box"><span class="label">Full Name:</span> Faishal Arif</div>
+            <div class="box"><span class="label">Education:</span> S1 Rekayasa Perangkat Lunak</div>
+            <div class="box"><span class="label">Pekerjaan:</span> Programmer</div>
+            <div class="box"><span class="label">Contact:</span> 08123456789</div>
+            <div class="box"><span class="label">Hobi:</span> Traveling</div>
+            <div class="box"><span class="label">Alamat:</span> Kebumen</div>
+        </div>
+
+        <hr>
+
+        <h2 align="center">Portofolio</h2>
+
+        <div class="portfolio">
+            <div>
+                <img src="img/Sistem Manajemen Gudang A Mitra Furniture.jpeg">
+                <p align="center">Sistem Manajemen Gudang AMitra Furniture</p>
+            </div>
+            <div>
+                <img src="img/Sistem Manajemen Gudang A Mitra Furniture.jpeg">
+                <p align="center">Project 2</p>
+            </div>
+            <div>
+                <img src="img/Sistem Manajemen Gudang A Mitra Furniture.jpeg">
+                <p align="center">Project 3</p>
+            </div>
+        </div>
+        <main></main>
+    </div>
+    <footer></footer>
+
+</body>
+
+</html>
