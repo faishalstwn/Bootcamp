@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faishal Arif - UI & UX Designer Portfolio</title>
+    <meta name="description"
+        content="Portfolio Faishal Arif Setiawan - UI & UX Designer, Web Developer, Programmer. Lihat project dan layanan saya.">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top" id="mainNav">
+        <div class="container">
+
+            <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="#home">
+                <div class="logo-wrap">
+                    <img src="images/foto-6a54e41ee038e.avif" alt="Logo Faishal" class="logo-img">
+                    <div class="logo-text-box">
+                        <span class="logo-top">FAWZIU<span class="text-orange">K</span></span>
+                        <span class="logo-sub">FAWZIUK</span>
+                    </div>
+                </div>
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain"
+                aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarMain">
+                <ul class="navbar-nav align-items-lg-center gap-1 mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active fw-medium" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link fw-medium" href="#contact">Contact</a></li>
+                    <li class="nav-item ms-2">
+                        <a class="btn btn-orange px-4 py-2 fw-semibold rounded-pill" href="#" id="downloadCvBtn"
+                            data-bs-toggle="modal" data-bs-target="#cvModal">Download CV</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-85 gy-5">
+                <!-- Left Text -->
+                <div class="col-lg-6 order-2 order-lg-1">
+                    <p class="hero-greeting mb-1">Hi I am</p>
+                    <h2 class="text-orange fw-bold mb-1" style="font-size:1.6rem;">Faishal Arif Setiawan</h2>
+                    <h1 class="hero-title mb-4">
+                        Web Developer &amp; <br>
+                        <span class="ms-4">Programmer</span>
+                    </h1>
+                    <p class="hero-desc mb-4">
+                        Saya Faishal Arif Setiawan, seorang Web Developer dan Programmer yang berbasis di Kebumen, Jawa
+                        Tengah. Saya memiliki passion dalam membangun website dan aplikasi yang tidak hanya tampil
+                        menarik, tetapi juga memberikan pengalaman pengguna yang optimal. Dengan keahlian di HTML, CSS,
+                        JavaScript, dan Bootstrap, saya siap membantu mewujudkan ide digital Anda menjadi kenyataan.
+                    </p>
+                    <a href="#contact" class="btn btn-orange px-4 py-2 fw-semibold rounded-pill">Hire Me</a>
+                </div>
+
+                <div class="col-lg-6 order-1 order-lg-2 text-center">
+                    <div class="hero-img-wrap">
+                        <img src="images/foto-6a54e41ee038e.avif" alt="Faishal Arif" class="hero-portrait">
+                    </div>
+
+                    <div class="social-row mt-4">
+                        <a href="#" class="social-icon" title="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-icon" title="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="social-icon" title="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="social-icon" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about" class="py-section bg-white">
+        <div class="container">
+            <div class="row align-items-center gy-5">
+                <div class="col-lg-5 text-center">
+                    <div class="about-img-wrap mx-auto">
+                        <img src="images/foto-6a54e41ee038e.avif" alt="About Faishal" class="about-portrait">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="text-muted mb-4">
+                        Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet
+                        donec morbi convallis pretium. Turpis tempus pharetra
+                    </p>
+
+                    <div class="skills mb-2">
+                        <div class="skill-item mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="fw-semibold">UX</span>
+                                <span class="text-muted">90%</span>
+                            </div>
+                            <div class="progress skill-bar">
+                                <div class="progress-bar bg-orange" role="progressbar" style="width: 90%"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="fw-semibold">Website Design</span>
+                                <span class="text-muted">85%</span>
+                            </div>
+                            <div class="progress skill-bar">
+                                <div class="progress-bar bg-orange" role="progressbar" style="width: 85%"
+                                    aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="fw-semibold">App Design</span>
+                                <span class="text-muted">92%</span>
+                            </div>
+                            <div class="progress skill-bar">
+                                <div class="progress-bar bg-orange" role="progressbar" style="width: 92%"
+                                    aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item mb-3">
+                            <div class="d-flex justify-content-between mb-1">
+                                <span class="fw-semibold">Graphic Design</span>
+                                <span class="text-muted">80%</span>
+                            </div>
+                            <div class="progress skill-bar">
+                                <div class="progress-bar bg-orange" role="progressbar" style="width: 80%"
+                                    aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row g-3 mt-2">
+                        <div class="col-4">
+                            <div class="stat-box text-center p-3">
+                                <div class="stat-num text-orange fw-bold">50+</div>
+                                <div class="stat-label">Projects Done</div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="stat-box text-center p-3">
+                                <div class="stat-num text-orange fw-bold">30+</div>
+                                <div class="stat-label">Happy Clients</div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="stat-box text-center p-3">
+                                <div class="stat-num text-orange fw-bold">3+</div>
+                                <div class="stat-label">Years Experience</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-section bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">My Services</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card text-center p-4 h-100">
+                        <div class="service-icon mb-3"><i class="bi bi-palette2"></i></div>
+                        <h5 class="fw-bold mb-2">UI & UX Design</h5>
+                        <p class="text-muted small">Merancang antarmuka yang intuitif, modern, dan berpusat pada
+                            pengguna untuk web dan mobile.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card text-center p-4 h-100">
+                        <div class="service-icon mb-3"><i class="bi bi-code-slash"></i></div>
+                        <h5 class="fw-bold mb-2">Web Development</h5>
+                        <p class="text-muted small">Membangun website responsif dan cepat menggunakan teknologi terkini
+                            seperti HTML, CSS, Bootstrap & JS.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card text-center p-4 h-100">
+                        <div class="service-icon mb-3"><i class="bi bi-phone"></i></div>
+                        <h5 class="fw-bold mb-2">App Design</h5>
+                        <p class="text-muted small">Mendesain aplikasi mobile yang menarik dan mudah digunakan untuk iOS
+                            maupun Android.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card text-center p-4 h-100">
+                        <div class="service-icon mb-3"><i class="bi bi-brush"></i></div>
+                        <h5 class="fw-bold mb-2">Graphic Design</h5>
+                        <p class="text-muted small">Membuat desain grafis profesional seperti logo, poster, banner, dan
+                            konten media sosial.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-section bg-white">
+        <div class="container">
+            <h2 class="section-title text-center">My Projects</h2>
+
+            <div class="d-flex justify-content-center flex-wrap gap-2 mb-5">
+                <button class="btn filter-btn active" data-filter="all">All</button>
+                <button class="btn filter-btn" data-filter="ux">UX</button>
+                <button class="btn filter-btn" data-filter="web">Web Design</button>
+                <button class="btn filter-btn" data-filter="app">App Design</button>
+                <button class="btn filter-btn" data-filter="graphic">Graphic Design</button>
+            </div>
+
+            <div class="row g-4" id="projectGrid">
+                <div class="col-md-6 col-lg-4 project-item" data-category="web">
+                    <div class="project-card" data-bs-toggle="modal" data-bs-target="#projectModal"
+                        data-title="Landing Page Design"
+                        data-desc="Desain landing page modern yang responsif dan menarik untuk meningkatkan konversi bisnis."
+                        data-img="images/foto-6a54e41ee038e.avif" data-tag="Web Design">
+                        <img src="images/Sistem Manajemen Gudang A Mitra Furniture.jpeg" alt="Landing Page Design">
+                        <div class="project-info">
+                            <span class="project-tag">Web Design</span>
+                            <h6 class="project-title">Landing Page Design</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 project-item" data-category="app">
+                    <div class="project-card" data-bs-toggle="modal" data-bs-target="#projectModal"
+                        data-title="Business Landing Page"
+                        data-desc="Halaman landing bisnis dengan desain bersih dan call-to-action yang efektif."
+                        data-img="images/foto-6a54e41ee038e.avif" data-tag="App Design">
+                        <img src="images/Sistem Manajemen Gudang A Mitra Furniture.jpeg" alt="Business Landing Page">
+                        <div class="project-info">
+                            <span class="project-tag">App Design</span>
+                            <h6 class="project-title">Business Landing Page</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 project-item" data-category="ux">
+                    <div class="project-card" data-bs-toggle="modal" data-bs-target="#projectModal"
+                        data-title="E-Commerce UX Redesign"
+                        data-desc="Redesain UX aplikasi e-commerce untuk meningkatkan pengalaman berbelanja pengguna."
+                        data-img="images/foto-6a54e41ee038e.avif" data-tag="UX">
+                        <img src="images/Sistem Manajemen Gudang A Mitra Furniture.jpeg" alt="E-Commerce UX">
+                        <div class="project-info">
+                            <span class="project-tag">UX</span>
+                            <h6 class="project-title">E-Commerce UX Redesign</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 project-item" data-category="graphic">
+                    <div class="project-card" data-bs-toggle="modal" data-bs-target="#projectModal"
+                        data-title="Brand Identity"
+                        data-desc="Desain identitas merek lengkap termasuk logo, palet warna, dan panduan merek."
+                        data-img="images/foto-6a54e41ee038e.avif" data-tag="Graphic Design">
+                        <img src="images/Sistem Manajemen Gudang A Mitra Furniture.jpeg" alt="Brand Identity">
+                        <div class="project-info">
+                            <span class="project-tag">Graphic Design</span>
+                            <h6 class="project-title">Brand Identity</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 project-item" data-category="web">
+                    <div class="project-card" data-bs-toggle="modal" data-bs-target="#projectModal"
+                        data-title="Portfolio Website"
+                        data-desc="Website portfolio personal yang responsif dan modern menggunakan HTML, CSS & Bootstrap."
+                        data-img="images/foto-6a54e41ee038e.avif" data-tag="Web Design">
+                        <img src="images/Sistem Manajemen Gudang A Mitra Furniture.jpeg" alt="Portfolio Website">
+                        <div class="project-info">
+                            <span class="project-tag">Web Design</span>
+                            <h6 class="project-title">Portfolio Website</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 project-item" data-category="app">
+                    <div class="project-card" data-bs-toggle="modal" data-bs-target="#projectModal"
+                        data-title="Mobile App UI"
+                        data-desc="Desain antarmuka aplikasi mobile yang intuitif untuk platform iOS dan Android."
+                        data-img="images/Sistem Manajemen Gudang A Mitra Furniture.jpeg" data-tag="App Design">
+                        <img src="images/Sistem Manajemen Gudang A Mitra Furniture.jpeg" alt="Mobile App UI">
+                        <div class="project-info">
+                            <span class="project-tag">App Design</span>
+                            <h6 class="project-title">Mobile App UI</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-section bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Testimonials</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="testi-card h-100 p-4">
+                        <div class="stars mb-3">
+                            <i class="bi bi-star-fill text-orange"></i>
+                            <i class="bi bi-star-fill text-orange"></i>
+                            <i class="bi bi-star-fill text-orange"></i>
+                            <i class="bi bi-star-fill text-orange"></i>
+                            <i class="bi bi-star-fill text-orange"></i>
+                        </div>
+                        <p class="text-muted fst-italic mb-4">"Faishal bekerja sangat profesional dan hasilnya melebihi
+                            ekspektasi kami. Desainnya modern dan responsif!"</p>
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="images/foto-6a54e41ee038e.avif" alt="Client 1" class="testi-avatar">
+                            <div>
+                                <div class="fw-bold">Budi Santoso</div>
+                                <div class="text-muted small">CEO, TechStart Indonesia</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="testi-card h-100 p-4">
+                        <div class="stars mb-3">
+                            <i class="bi bi-star-fill text-orange"></i>
+                            <i class="bi bi-star-fill text-orange"></i>
+                            <i class="bi bi-star-fill text-orange"></i>
+                            <i class="bi bi-star-fill text-orange"></i>
+                            <i class="bi bi-star-half text-orange"></i>
+                        </div>
+                        <p class="text-muted fst-italic mb-4">"Sangat puas dengan hasil kerjanya. Website yang dibuat
+                            sangat menarik dan loading-nya cepat. Recommended!"</p>
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="images/foto-6a54e41ee038e.avif" alt="Client 2" class="testi-avatar">
+                            <div>
+                                <div class="fw-bold">Siti Rahayu</div>
+                                <div class="text-muted small">Founder, Kreasi Digital</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="testi-card h-100 p-4">
+                        <div class="stars mb-3">
+                            <i class="bi bi-star-fill text-orange"></i>
+                            <i class="bi bi-star-fill text-orange"></i>
+                            <i class="bi bi-star-fill text-orange"></i>
+                            <i class="bi bi-star-fill text-orange"></i>
+                            <i class="bi bi-star-fill text-orange"></i>
+                        </div>
+                        <p class="text-muted fst-italic mb-4">"Komunikasi yang baik, pengerjaan tepat waktu, dan hasil
+                            akhir yang luar biasa. Pasti akan bekerja sama lagi!"</p>
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="images/foto-6a54e41ee038e.avif" alt="Client 3" class="testi-avatar">
+                            <div>
+                                <div class="fw-bold">Andi Pratama</div>
+                                <div class="text-muted small">Marketing Director, Brand Co.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-section bg-white">
+        <div class="container">
+            <h2 class="section-title text-center">Contact Me</h2>
+            <div class="row justify-content-center gy-5">
+                <!-- Info -->
+                <div class="col-lg-4">
+                    <div class="contact-info-box p-4 h-100">
+                        <h5 class="fw-bold mb-4">Let's Work Together</h5>
+                        <div class="d-flex gap-3 mb-3">
+                            <div class="contact-icon"><i class="bi bi-envelope-fill"></i></div>
+                            <div>
+                                <div class="fw-semibold">Email</div>
+                                <div class="text-muted small">faishal@email.com</div>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-3 mb-3">
+                            <div class="contact-icon"><i class="bi bi-telephone-fill"></i></div>
+                            <div>
+                                <div class="fw-semibold">Phone</div>
+                                <div class="text-muted small">+62 812-3456-789</div>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-3 mb-4">
+                            <div class="contact-icon"><i class="bi bi-geo-alt-fill"></i></div>
+                            <div>
+                                <div class="fw-semibold">Lokasi</div>
+                                <div class="text-muted small">Kebumen, Jawa Tengah</div>
+                            </div>
+                        </div>
+                        <div class="social-row">
+                            <a href="#" class="social-icon" title="Facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="social-icon" title="Twitter"><i class="bi bi-twitter-x"></i></a>
+                            <a href="#" class="social-icon" title="Instagram"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="social-icon" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <form id="contactForm" class="contact-form-box p-4">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold">Nama Lengkap</label>
+                                <input type="text" class="form-control custom-input" placeholder="Nama kamu" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold">Email</label>
+                                <input type="email" class="form-control custom-input" placeholder="email@contoh.com"
+                                    required>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label fw-semibold">Subjek</label>
+                                <input type="text" class="form-control custom-input" placeholder="Subjek pesan"
+                                    required>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label fw-semibold">Pesan</label>
+                                <textarea class="form-control custom-input" rows="5"
+                                    placeholder="Tulis pesanmu di sini..." required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-orange px-5 py-2 fw-semibold rounded-pill w-100">
+                                    <i class="bi bi-send-fill me-2"></i>Kirim Pesan
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="container text-center">
+            <p class="mb-1 fw-semibold">© 2025 <span class="text-orange">Faishal Arif Setiawan</span>. All rights
+                reserved.</p>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content border-0 shadow-lg">
+                <div class="modal-header border-0" style="background: var(--primary-color);">
+                    <h5 class="modal-title fw-bold text-white" id="projectModalLabel">Detail Project</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <img id="projectModalImg" src="" alt="" class="w-100 rounded-top"
+                        style="max-height:300px; object-fit:cover;">
+                    <div class="p-4">
+                        <span id="projectModalTag" class="project-tag mb-2 d-inline-block"></span>
+                        <h4 id="projectModalTitle" class="fw-bold mt-2 mb-3"></h4>
+                        <p id="projectModalDesc" class="text-muted"></p>
+                        <a href="#" class="btn btn-orange px-4 fw-semibold rounded-pill">
+                            <i class="bi bi-box-arrow-up-right me-1"></i>Lihat Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="cvModal" tabindex="-1" aria-labelledby="cvModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg">
+                <div class="modal-header border-0" style="background: var(--primary-color);">
+                    <h5 class="modal-title fw-bold text-white" id="cvModalLabel">
+                        <i class="bi bi-file-earmark-person-fill me-2"></i>Download CV
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center p-4">
+                    <i class="bi bi-file-earmark-pdf-fill text-orange" style="font-size:4rem;"></i>
+                    <h5 class="fw-bold mt-3 mb-2">Faishal Arif Setiawan</h5>
+                    <p class="text-muted mb-4">UI & UX Designer · Web Developer · Programmer</p>
+                    <a href="#" class="btn btn-orange px-5 py-2 fw-semibold rounded-pill">
+                        <i class="bi bi-download me-2"></i>Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="position-fixed top-0 end-0 p-3" style="z-index: 1200">
+        <div id="successToast" class="toast align-items-center text-white border-0"
+            style="background: var(--primary-color);" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body fw-semibold">
+                    <i class="bi bi-check-circle-fill me-2"></i>Pesan berhasil dikirim!
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"
+                    aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+
+    <button id="scrollTopBtn" title="Kembali ke atas" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-link');
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(sec => {
+                if (window.scrollY >= sec.offsetTop - 90) current = sec.getAttribute('id');
+            });
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) link.classList.add('active');
+            });
+            document.getElementById('scrollTopBtn').style.display = window.scrollY > 300 ? 'block' : 'none';
+        });
+
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function () {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                const filter = this.dataset.filter;
+                document.querySelectorAll('.project-item').forEach(item => {
+                    item.style.display = (filter === 'all' || item.dataset.category === filter) ? 'block' : 'none';
+                });
+            });
+        });
+
+        document.getElementById('projectModal').addEventListener('show.bs.modal', function (e) {
+            const card = e.relatedTarget;
+            document.getElementById('projectModalTitle').textContent = card.dataset.title;
+            document.getElementById('projectModalDesc').textContent = card.dataset.desc;
+            document.getElementById('projectModalImg').src = card.dataset.img;
+            document.getElementById('projectModalTag').textContent = card.dataset.tag;
+            document.getElementById('projectModalLabel').textContent = card.dataset.title;
+        });
+
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            this.reset();
+            new bootstrap.Toast(document.getElementById('successToast')).show();
+        });
+    </script>
+</body>
+
+</html>
